@@ -1,20 +1,55 @@
-#bienvenida{
+body {
+  
+color:black;
+font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+h1 {
+    text-align: center;
+
+
+}
+
+h3 {
+    text-align: center;
+
+
+}
+
+
+button {
+
+
+}
+
+
+#bienvenida {
     display: block;
-   text-align:center;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 270px;
+    background-image: url(img/bandera-ucrania-fondo.PNG);
+
+
+
     }
-#introduccion{
+
+#introduccion {
     display: none;
-   text-align:center;
+  
     }
-#instrucciones{
+#instrucciones {
     display: none;
-   text-align:center;
+   
     }
-#encriptar{
+#encriptar {
     display: none;
-   text-align:center;
+   
     }
-#decifrar{
+#decifrar {
     display: none;
-   text-align:center;
+  
     }
