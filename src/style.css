@@ -1,0 +1,20 @@
+#bienvenida{
+    display: block;
+   text-align:center;
+    }
+#introduccion{
+    display: none;
+   text-align:center;
+    }
+#instrucciones{
+    display: none;
+   text-align:center;
+    }
+#encriptar{
+    display: none;
+   text-align:center;
+    }
+#decifrar{
+    display: none;
+   text-align:center;
+    }
