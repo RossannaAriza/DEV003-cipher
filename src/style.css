@@ -1,3 +1,10 @@
+header{
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 250%;
+}
 body {
   
 color:black;
@@ -18,36 +25,47 @@ h3 {
 
 
 }
-button {
-        display:block;
-}
 
 #bienvenida {
-    display: none;
+    display: block;
     padding-top: 200px;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 50px;
     padding-bottom: 270px;
-    background-image: url(img/bandera-ucrania-fondo.PNG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
+    text-align: center;
+    
     }
     
 #introduccion {
     display: block;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 270px;
+    text-align: center;
   
     }
 #instrucciones {
-    display: none;
-   
+    display: block;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 270px;
+    text-align: center;
     }
 #encriptar {
-    display: none;
-   
+    display: block;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 270px;
+    text-align: center;
     }
 #decifrar {
-    display: none;
-  
+    display: block;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 270px;
+    text-align: center;
     }
