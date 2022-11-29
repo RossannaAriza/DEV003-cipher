@@ -3,6 +3,7 @@ body {
 color:black;
 font-family:Georgia, 'Times New Roman', Times, serif;
 
+
 }
 
 
@@ -17,28 +18,25 @@ h3 {
 
 
 }
-
-
 button {
-
-
+        display:block;
 }
 
-
 #bienvenida {
-    display: block;
+    display: none;
     padding-top: 200px;
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 270px;
     background-image: url(img/bandera-ucrania-fondo.PNG);
-
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
     }
-
+    
 #introduccion {
-    display: none;
+    display: block;
   
     }
 #instrucciones {
