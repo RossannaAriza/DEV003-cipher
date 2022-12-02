@@ -7,14 +7,18 @@
   </head>
   <body>
     
-    <header>INFORMACION SECRETA <br> <small>(Ayudemos a Ucrania)</small> <img src="img/ayuda-mapa.jfif" alt="Bandera de Ucrania" style="float:right;"></header>
+    <!-- <header>INFORMACION SECRETA <br> <small>(Ayudemos a Ucrania)</small> </header> -->
 
-    <div id="bienvenida">
-      <p>Bienveni@, por favor <br> ingresa tu alias= <br><input type="text" name="nombre" id="nombre"></p>
-      <p><button onclick="alert(Hola)"> Continuar </button> </p> 
+    <div class="bienvenida" id="bienvenida">
+      
+      <form><img src="img/ayuda-mapa.jfif" alt="Bandera de Ucrania" style="float:right;">
+        <label for="">Bienveni@, por favor <br> ingresa tu alias= <br></label>
+        <input type="text" name="name" class="name" id="name" value=""></form>
+      <p><button> Continuar </button> </p> 
     </div>
-    <hr>
-    <div id="introduccion">
+
+
+    <div class="introduccion" id="introduccion">
 
       <img src="img/bandera animada.gif" alt="Bandera de Ucrania animada" style="float:right;">
 
@@ -30,45 +34,53 @@
       <p><button>Continuar</button></p>
       <p><a href="">Volver a Inicio</a></p>
       </div>
-<hr>
 
     <div id="instrucciones">
-      <img src="img/Ucrania-humo.jpg" alt="Ucrania humo" style="float:right;">
+      <img src="img/Ucrania-humo.jpg" alt="Ucrania humo" style="float:right;width: 700px;height: 400px;">
       <h3>¿Como lo haremos?:</h3>
-      <p>El metodo sera el <a href="" target="_blank">cifrado de Cesar </a>, solo necesitas seleccionar la posición del alfabeto ingresar el texto y ya, recuerda esa posición es la misma que podrá permitirte traducir un texto encriptado. <br> ¡¿Listos?!, Entonces elige que deseas hacer!</p>
+      <p>El metodo sera el <a href="https://en.wikipedia.org/wiki/Caesar_cipher" target="_blank">cifrado de Cesar </a>, solo necesitas seleccionar la posición del alfabeto (la podemos indicar como una contraseña), ingresar el texto y ya, recuerda esa posición (contraseña) es la misma que podrá permitirte traducir el texto encriptado. <br> ¡¿Listos?!, Entonces elige que deseas hacer!</p>
       <p><button>Encriptar mensaje</button>  <button>Decifrar mensaje</button></p>
       <p><a href="">Volver a Inicio</a></p>
     </div>
-    <hr>
 
     
     <div id="encriptar">
     <h3>¡PERFECTO!</h3>
-      <p>Deseas enviat un mensaje secreto, ingresalo a continuacion, y no olvides seleccionar la contraseña (esta la debes saber solo tu y quien deseas que decifre el mensaje)</p>
-      <p><input type="text" name="textoEncriptado" id="textoEncriptado"><img src="img/niña-war.PNG" alt="Niña en guerra" style="float:right;"></p> 
-    <!--colocar selector de posicion-->
-    <p>¿Listos?, solo debes presionar encriptar y tendras tu mensaje listo</p>
+      <p>Deseas enviar un mensaje secreto, ingresalo a continuacion, y no olvides seleccionar la contraseña (esta la debes saber solo tu y quien deseas que decifre el mensaje)</p>
+      <form id="encriptado" autocomplete="off">
+        <label for="mensajeAEncriptado">Ingresa el mensaje a encriptar</label>
+        <input type="text"  id="textoEncriptado" style="text-transform:uppercase" spellcheck="false" placeholder="Ingrese el texto" ><img src="img/niña-war.PNG" alt="Niña en guerra" style="float:right;"> 
+        </form>
+        <!--colocar selector de posicion-->
+        <p>Selecciona la contraseña:</p>
+        <input id="posicionEncriptado" type="range" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
+        <output>10</output>
+        <p>¿Listos?, solo debes presionar encriptar y tendras tu mensaje listo</p>
       <p><button>Encriptar</button></p>
-    <!--devolver texto encriptado en un parrafo-->
+    <!--devolver texto encriptado en un parrafo o alert-->
+    <p id="resultadoEncriptado"></p>
     <p><a href="">Volver a Inicio</a></p>
     </div>
-<hr>
 
 
 
     <div id="decifrar">
     <h3>Decifrar</h3>
       <p>Ohhhhhh!!!!, tienes un mensaje que decifrar, solo ingresalo a continuacion coloca la contraseña que acordaste con el mensajero y preciona decifrar.<img src="img/ucrania-people.jfif" alt="Personas de Ucrania" style="float:left;"></p>
-      <p><input type="text" name="textoDecifrado" id="textoDecifrado"></p>
+      <form>
+      <label for="mensajeADecifrar">Ingresa el mensaje a encriptar</label>
+      <input type="text" name="textoDecifrado" id="textoDecifrado"style="text-transform:uppercase" ></form>
       <!--colocar selector de posicion-->      
       <p><button>Decifrar</button></p>
-      <!--devolver texto encriptado en un parrafo-->
+      <!--devolver texto encriptado en un parrafo o alert-->
+    
     <p><a href="">Volver a Inicio</a></p>
   </div>
-
-
   
-<script src="index.js" type="module"></script>
+<script src="index.js" type="module">
+
+
+</script>
 
   </body>
 </html>
