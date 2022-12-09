@@ -95,14 +95,3 @@ decipherBtn.addEventListener("click",function(){
 //bloqueEncriptar.style.display='none';
 //bloqueDecifrar.style.display='none';
 //});
-
-
-//const botonVolverAtras = document.getElementById("volverAtras");
-
-//botonVolverAtras.addEventListener("click",function(){
-//bloqueBienvenida.style.display="none";
-//bloqueIntroduccion.style.display='none';
-//bloqueInstrucciones.style.display='block';
-//bloqueEncriptar.style.display='none';
-//bloqueDecifrar.style.display='none';
-//});
