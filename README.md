@@ -1,4 +1,5 @@
 # SOS UCRANIA
+____________________________________________________________________________________________________________________________
 ## Índice
 
 # SOS UCRANIA
@@ -11,7 +12,7 @@
 ***
 ## 1. Introducción
 
-La invasión rusa de Ucrania​ es un episodio bélico en curso a gran escala que 
+  La invasión rusa de Ucrania​ es un episodio bélico en curso a gran escala que 
 empezó el 24 de febrero de 2022 y forma parte de la guerra ruso-ucraniana, 
 comenzada en 2014. Suecia y Finlandia invocan la Cláusula de Defensa Mutua de 
 la UE​ y solicitaron su adhesión a la OTAN.
@@ -20,18 +21,18 @@ Atentados en Transnistria. En estos momentos, la población de Ucrania se enfren
 a una catastrófica crisis de derechos humanos.Están muriendo personas, incluso niños 
 y niñas, y muchas miles de vidas están en peligro. Para más información revisa ["Ucrania y Rusia: 4 claves para entender qué está pasando en la guerra”](https://www.bbc.com/mundo/noticias-internacional-61951722).
 
-Ya que conoce un poco más de la situación actual de Ucrania te preguntarás cómo puedes 
+  Ya que se conoce un poco más de la situación actual de Ucrania te preguntarás cómo puedes 
 ayudar, esta página fue creada para que puedas tener una comunicación con los ucranianos 
 por redes sociales sin temor de sentirse involucrado con temas de política.
 
-El metodo sera el [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher), 
+  El metodo sera el [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher), 
 solo necesitas seleccionar la posición del alfabeto (la podemos indicar como una contraseña), 
 ingresar el texto y ya, recuerda esa posición (contraseña) es la misma que podrá permitirte 
 traducir el texto encriptado.
 
 ## 2. Potenciales usuarios
 
-Los principales usuarios el producto son los hispanohablantes radicados 
+  Los principales usuarios el producto son los hispanohablantes radicados 
 actualmente en Ucrania, que por la situación actual no se pueden comunicar 
 libremente con sus familiares por no adoptar una postura política y correr 
 algún riesgo, la página no está desarrollada en el idioma Ucraniano  pero 
@@ -39,7 +40,8 @@ alfabeto que está determinado permite traducir también comunicaciones en
 inglés lo cual puede ser útil para quienes lo hablan en el país.
 
 ## 3. Objetivo
-* El objetivo principal es poder brindar una herramienta que transmita tranquilidad 
+
+  * El objetivo principal es poder brindar una herramienta que transmita tranquilidad 
 al momento de comunicarse ya que actualmente cualquier comentario puede ser tomado 
 como si las personas tomaran una postura política, por lo cual quienes se encuentra 
 por fuera si quieren brindar ayudas monetarias, de alimentos, medicamentos, 
@@ -47,14 +49,14 @@ entre otros podrán hacerlo y coordinarse sin miedo.
 
 ## 4. Aplicabilidad
 
-Al facilitar una comunicación segura, que es el primer paso a poder 
+  Al facilitar una comunicación segura, que es el primer paso a poder 
 brindar una ayuda adicional, con el solo hecho que sientan un apoyo 
 o respaldo los Ucranianos eso les dará fortaleza, al igual que las 
 familias por fuera que se encuentran preocupados.
 
 ## 5. Instrucciones de uso
 
-¿Cómo funciona la pagina “SOS Ucrania”?, es una interfaz interactiva que a través 
+  ¿Cómo funciona la pagina “SOS Ucrania”?, es una interfaz interactiva que a través 
 de bloques de información permite al usuario involucrarse en una crisis actual vivida 
 por Ucrania, contextualizarse un poco y entender en que se basó la metodología.
 
@@ -67,15 +69,17 @@ se revelara el mensaje.
 
 ## 6. Diseño
 
-El diseño fue modificando para ser más amigable con el usuario a partir de un
+  El diseño fue modificando para ser más amigable con el usuario a partir de un
 boceto en hojas de papel, como presentaciones a compañeras para feedbacks, 
 recordando el contexto en el que se desarrolla pero sin ser agresivo por lo cual 
 se decidió adicionar tonos pasteles e ilustraciones de imágenes. 
+
 ![Boceto1](/src/img/Boceto1.jpeg)
 ![Boceto2](/src/img/Boceto2.jpeg)
 ![boceto3](/src/img/Boceto3.jpeg)
 ![boceto4](/src/img/Boceto4.jpeg)
 (Imagenes anteriores del boceto inicial).
+
 
 Se presenta en bloques porque es importante que el usuario conozca el contexto y el uso,
 por lo cual se presenta en partes la información, se busca personalizar la interacción 
