@@ -1,0 +1,172 @@
+/*selectores de tipo "elemento"*/
+header{
+    color:black;
+    font-family: Impact; /* fuente de la letra*/
+    font-size: 2em;  /* tamaño de la letra*/
+    font-style: normal;  /* estilo de la letra*/
+    font-weight: bolder;  /* grosor de la letra*/
+    text-align: center;
+    padding-top: 50px;  /* espacio o relleno entre el borde y el contenido arriba*/
+    padding-left: 50px;  /* espacio o relleno entre el borde y el contenido izquierda*/
+    padding-right: 50px;  /* espacio o relleno entre el borde y el contenido derecha*/
+    border: 20px double black; /* borde tamaño o grosor estado y color*/
+    margin-top: 10px;  /* espacio o relleno entre el borde y el contenido margen superior*/
+    margin-right: 10px; /* espacio o relleno entre el borde y el contenido margen derecho*/
+    margin-bottom: 10px;  /* espacio o relleno entre el borde y el contenido margen inferior*/
+    margin-left: 10px;  /* espacio o relleno entre el borde y el contenido margen izquierdo */
+    background-color: rgba(198, 219, 245, 0.36);
+    background-image: url(/img/fondo\ 3.jpg); /* imagen de fondo*/
+    background-repeat: no-repeat;  /*imagen de fondo no se repita*/
+    background-size: auto; /* imagen de fondo cubra todo*/
+    background-position-x: right; /* posicion de la imagen de fondo x de izquierda a derecha */
+}
+body {
+  background-color: white; /* color del fondo */
+  font-family: Impact; /* fuente de la letra*/
+  padding-top: 5px;  /* espacio o relleno entre el borde y el contenido arriba*/
+  padding-left: 5px;  /* espacio o relleno entre el borde y el contenido izquierda*/
+  padding-bottom: 5px;  /* espacio o relleno entre el borde y el contenido abajo*/
+  border: 200px; /* borde tamaño o grosor estado y color*/
+  margin-top: 70px;  /* espacio o relleno entre el borde y el contenido margen superior*/
+  margin-right: 70px; /* espacio o relleno entre el borde y el contenido margen derecho*/
+  margin-bottom: 70px;  /* espacio o relleno entre el borde y el contenido margen inferior*/
+  margin-left: 70px;  /* espacio o relleno entre el borde y el contenido margen izquierdo */
+}
+button{
+    background: #21939d; /* fondo de los botones color */
+    text-shadow: 3px 2px 1px #9daef5; /* sobra al texto en el boton y color de la sobra*/
+    box-shadow: 6px 5px 24px #666666; /* sombra de la caja */
+    font-family: Arial; /* fuente de la letra*/
+    color: #fafafa; /* color de la letra */
+    font-size: 15px; /* tamaño de la letra*/
+    padding: 10px;/*relleno del boton */
+}
+footer{
+    color:black; /* color de la letra */
+    font-family: Arial, Helvetica, sans-serif; /* fuente de la letra*/
+    font-size: 1em;  /* tamaño de la letra*/
+    font-style:oblique;  /* estilo de la letra*/
+    font-weight: normal;  /* grosor de la letra*/
+    text-align: center; /* alineacion del texto */
+    padding-top: 100px;  /* espacio o relleno entre el borde y el contenido arriba*/
+    padding-left: 50px;  /* espacio o relleno entre el borde y el contenido izquierda*/
+    padding-right: 50px;  /* espacio o relleno entre el borde y el contenido derecha*/
+    border: 20px; /* borde tamaño o grosor estado y color*/
+}
+/*selectores de ID*/
+#bienvenida {
+    display: block; /* visualizacion en la pantalla */
+    padding-top: 200px; 
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 270px;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(/img/FondoUcrania.jpg);
+    background-repeat: no-repeat;  /*imagen de fondo no se repita*/
+    background-position-x: center; /* posicion de la imagen de fondo x de izquierda a derecha */
+    background-position-y: center; /* posicion de la imagen de fondo x de arriba hacia abajo */
+    background-size: 15em; /* tamaño de la imagen de fondo */
+    
+    }
+    
+#introduccion {
+    display: none;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 270px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    background-image: url(/img/bandera\ animada.gif);
+    background-repeat: no-repeat;  /*imagen de fondo no se repita*/
+    background-size: cover;
+    }
+#instrucciones {
+    display: none;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 270px;
+    text-align: block;
+    font-family: sans-serif;
+    background-image: url(/img/fondo\ instrucciones.png);
+    background-repeat: no-repeat;  /*imagen de fondo no se repita*/
+    background-size: 40%;
+    }
+#encriptar {
+    display: none;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 270px;
+    background-image: url(/img/fondo\ 2.jpg), url(/img/encriptar.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center, center;
+    background-position-y: center, bottom;
+    font-family: sans-serif;
+}
+#decifrar {
+    display: none;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 270px;
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(/img/decifrado.png);
+    background-size: 15;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;  
+    }
+/*selectores de clase*/
+    .name{
+        border-radius: 10px; /* radio del borde del cuadro de texto */
+        background-color: rgb(173, 209, 224); /* color fondo cuadro texto */
+        border: 0; /* sin borde*/
+        font-size: 0.6em;  /* tamaño de la letra */
+    }
+        .titulo1{
+        text-align: center;
+        font-family: Impact;
+        font-size: 3em;
+        font-weight: lighter;  /* grosor de la letra*/
+    }
+    .titulo{
+        text-align: center;
+        font-size: 2em;
+    }
+    .parrafoIntroduccion{
+        text-align: justify;
+    }
+    .parrafoInstrucciones{
+        text-align: justify;
+    }
+    .mensaje{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bold; 
+        font-weight: bold; 
+        font-size: 1.5em;
+        color: rgb(199, 12, 12);   
+    }
+/*selectores descendente*/
+main article.introduccion p a{
+    color: rgb(244, 238, 243);
+}
+input#offsetEncriptar{
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(173, 209, 224);
+    border: 0;
+    font-size: 0.8em; 
+}
+input#offsetDecifrar{
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(173, 209, 224);
+    border: 0;
+    font-size: 0.8em; 
+}
