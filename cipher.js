@@ -3,20 +3,20 @@ const cipher = {
     if (typeof offsetEncriptarValue !== "number" || typeof textoAEncriptarValue !== "string") {
       throw new TypeError("Tipos de datos no validos", "cipher.js", 3);
     }
-    let output = "";
-    for (let i = 0; i < textoAEncriptarValue.length; i++) {
+    let mensajeResultado = ""; //se crea una variable mensajeResultado y se establece como un string
+    for (let i = 0; i < textoAEncriptarValue.length; i++) { //se usa el loop for para recorrer el array en donde se establece el indix "i" comienza desde o y llega a la ultima posicion del array name array.length y para recorrerlo de uno en uno i++
       let char = textoAEncriptarValue[i];
-      const code = textoAEncriptarValue.charCodeAt(i);
+      const code = textoAEncriptarValue.charCodeAt(i);//se utiliza el método que devuelve un número indicando el valor Unicode del carácter en el índice proporcionado.
 
       if (code >= 65 && code <= 90) {
-        char = String.fromCharCode(((code - 65 + offsetEncriptarValue) % 26) + 65);
+        char = String.fromCharCode(((code - 65 + offsetEncriptarValue) % 26) + 65); //se agrega mayusculas, se utiliza el método estático que devuelve una cadena creada mediante el uso de una secuencia de valores Unicode especificada.
       } else if (code >= 97 && code <= 122) {
-        char = String.fromCharCode(((code - 97 + offsetEncriptarValue) % 26) + 97);
+        char = String.fromCharCode(((code - 97 + offsetEncriptarValue) % 26) + 97); // se agrega minusculas, el objeto String se utiliza para representar y manipular una secuencia de caracteres.
       }
 
-      output = output + char;
+      mensajeResultado = mensajeResultado + char;
     }
-    return output;
+    return mensajeResultado;
   },
 
 
@@ -24,7 +24,7 @@ const cipher = {
     if (typeof offsetDecifrarValue !== "number" || typeof textoADecifrarValue !== "string"){
       throw new TypeError("Tipos de datos no validos", "cipher.js", 3);
     }
-    let output = "";
+    let mensajeResultado = "";
     for(let i = 0; i < textoADecifrarValue.length; i++){
       let char = textoADecifrarValue[i];
       const code = textoADecifrarValue.charCodeAt(i);
@@ -35,9 +35,9 @@ const cipher = {
         char = String.fromCharCode(((code - 122 - offsetDecifrarValue) % 26)+122);
       }
 
-      output = output + char;
+      mensajeResultado = mensajeResultado + char;
     }
-    return output;
+    return mensajeResultado;
   },
 
 };
