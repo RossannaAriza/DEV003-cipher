@@ -28,7 +28,7 @@
       <p class="parrafoIntroduccion"> Tendrás la oportunidad de encriptar tus mensajes y viceversa, para que envies información o solicitar información a tus conocidos en Ucrania y así poder ayudarlos ya sea con mensajes positivos o otro tipo de ayuda con tranquilidad, tu información siempre será secreta.</p>
       <p class="parrafoIntroduccion">Para empezar y conocer como hacerlo presiona continuar.</p>
       <p><button id="continuarIntrucciones">Continuar</button></p>
-      <p><a href="">Volver a Inicio</a></p>
+      <p><button class="volverAInicio1">Volver</button></p>
     </section>
 
 
@@ -38,7 +38,7 @@
       <p class="parrafoInstrucciones">El metodo sera el <a href="https://en.wikipedia.org/wiki/Caesar_cipher" target="_blank">cifrado de Cesar</a>, solo necesitas seleccionar la posición del alfabeto (la podemos indicar como una contraseña), ingresar el texto y ya, recuerda esa posición (contraseña) es la misma que podrá permitirte traducir el texto encriptado.</p>
       <p class="parrafoInstrucciones">¡¿Listos?!, Entonces elige que deseas hacer!</p>
       <p><button id="continuarEncriptar">Encriptar mensaje</button>  <button id="continuarDecifrar">Decifrar mensaje</button></p>
-      <p><a href="">Volver a Inicio</a></p>
+      <p><button class="volverAInicio2">Volver a Inicio</button></p>
     </section>
 
     
@@ -46,13 +46,14 @@
     <h3 class="titulo">¡PERFECTO!</h3>
       <p>Deseas enviar un mensaje secreto, ingresalo a continuacion, y no olvides seleccionar la contraseña (esta la debes saber solo tu y quien deseas que decifre el mensaje)</p>
       <p>Ingresa el mensaje a encriptar</p><figure><img src="img/niña-war.PNG" alt="Niña en guerra" style="float:right;"></figure>
-      <textarea name="textoAEncriptar" id="textoAEncriptar" rows="10" cols="50" placeholder="Ingrese el texto" style="text-transform:uppercase" spellcheck="false"></textarea>
+      <textarea name="textoAEncriptar" id="textoAEncriptar" rows="10" cols="50" placeholder="Ingrese el texto" spellcheck="false"></textarea> <!-- apellcheck funciona para no marcar linea roja palabra mal escrita en el cuadro texto-->
       <p>Selecciona la contraseña:</p>
       <input type="number" id="offsetEncriptar" value="1" min="1">
       <p>¿Listos?, solo debes presionar encriptar y tendras tu mensaje listo</p>
       <p><button class="boton" type="button" id="cipher">Encriptar</button></p>
       <p class="mensaje"><strong><ins>MENSAJE ENCRIPTADO:</ins></strong><br><br><output id="textoEncriptado" for="textoAEncriptar offsetEncriptar"></output></p>
-      <a href="">Volver a Inicio</a>
+      <p><button class="volverAInicio3">Volver a Inicio</button></p>
+      <p><button class="volverAtras1">Volver Atras</button></p>
     </section>
   
 
@@ -60,12 +61,13 @@
     <section id="decifrar">
     <h3 class="titulo">Decifrar...</h3>
       <p>Ohhhhhh!!!!, tienes un mensaje que decifrar, solo ingresalo a continuacion coloca la contraseña que acordaste con el mensajero y preciona decifrar.<figure><img src="img/ucrania-people.jfif" alt="Personas de Ucrania" style="float:left;"></figure></p>
-      <textarea name="textoADecifrar" id="textoADecifrar" rows="10" cols="50" placeholder="Ingrese el texto" style="text-transform:uppercase" spellcheck="false"></textarea>
+      <textarea name="textoADecifrar" id="textoADecifrar" rows="10" cols="50" placeholder="Ingrese el texto" spellcheck="false"></textarea> <!-- representa un control para la edición mutilínea de texto sin formato.-->
       <p>Selecciona la contraseña:</p>
       <input type="number" id="offsetDecifrar" value="1" min="1">
       <p class="button"><button class="boton" type="button" id="decipher">Decifrar</button></p>
       <p class="mensaje"><strong><!-- subraya texto--><ins>MENSAJE DECIFRADO:</ins></strong><br><br><output id="textoDecifrado" for="textoADecifrar offsetDecifrar"></output></p>
-      <a href="">Volver a Inicio</a>
+      <p><button class="volverAInicio4">Volver a Inicio</button></p>
+      <p><button class="volverAtras2">Volver Atras</button></p>
   </section>
 
 </main>

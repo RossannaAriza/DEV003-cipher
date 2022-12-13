@@ -15,7 +15,7 @@ header{
     margin-bottom: 10px;  /* espacio o relleno entre el borde y el contenido margen inferior*/
     margin-left: 10px;  /* espacio o relleno entre el borde y el contenido margen izquierdo */
     background-color: rgba(198, 219, 245, 0.36);
-    background-image: url(/img/fondo\ 3.jpg); /* imagen de fondo*/
+    background-image: url(./img/fondo\ 3.jpg); /* imagen de fondo*/
     background-repeat: no-repeat;  /*imagen de fondo no se repita*/
     background-size: auto; /* imagen de fondo cubra todo*/
     background-position-x: right; /* posicion de la imagen de fondo x de izquierda a derecha */
@@ -63,7 +63,7 @@ footer{
     font-size: 2.5em;
     text-align: center;
     font-family: sans-serif;
-    background-image: url(/img/FondoUcrania.jpg);
+    background-image: url(./img/FondoUcrania.jpg);
     background-repeat: no-repeat;  /*imagen de fondo no se repita*/
     background-position-x: center; /* posicion de la imagen de fondo x de izquierda a derecha */
     background-position-y: center; /* posicion de la imagen de fondo x de arriba hacia abajo */
@@ -79,7 +79,7 @@ footer{
     padding-bottom: 270px;
     font-family: sans-serif;
     color: whitesmoke;
-    background-image: url(/img/bandera\ animada.gif);
+    background-image: url(./img/bandera\ animada.gif);
     background-repeat: no-repeat;  /*imagen de fondo no se repita*/
     background-size: cover;
     }
@@ -91,7 +91,7 @@ footer{
     padding-bottom: 270px;
     text-align: block;
     font-family: sans-serif;
-    background-image: url(/img/fondo\ instrucciones.png);
+    background-image: url(./img/fondo\ instrucciones.png);
     background-repeat: no-repeat;  /*imagen de fondo no se repita*/
     background-size: 40%;
     }
@@ -101,11 +101,12 @@ footer{
     padding-left: 100px;
     padding-right: 50px;
     padding-bottom: 270px;
-    background-image: url(/img/fondo\ 2.jpg), url(/img/encriptar.jpg);
+    background-image: url(./img/fondo\ 2.jpg), url(./img/encriptar.jpg);
     background-repeat: no-repeat;
     background-position-x: center, center;
     background-position-y: center, bottom;
     font-family: sans-serif;
+    text-align: center;
 }
 #decifrar {
     display: none;
@@ -115,7 +116,7 @@ footer{
     padding-bottom: 270px;
     text-align: center;
     font-family: sans-serif;
-    background-image: url(/img/decifrado.png);
+    background-image: url(./img/decifrado.png);
     background-size: 15;
     background-repeat: no-repeat;
     background-position-x: center;
