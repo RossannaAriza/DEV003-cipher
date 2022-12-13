@@ -2,14 +2,6 @@
 ____________________________________________________________________________________________________________________________
 ## Índice
 
-# SOS UCRANIA
-* [1. Introducción](#1-Introducción)
-* [2. Potenciales usuarios](#2-Potenciales-usuarios)
-* [3. Objetivo](#3-Objetivo)
-* [4. Aplicabilidad](#4-Aplicabilidad)
-* [5. Instrucciones de uso](#5-Instrucciones-de-uso)
-* [6. Diseño](#6-Diseño)
-***
 ## 1. Introducción
 
   La invasión rusa de Ucrania​ es un episodio bélico en curso a gran escala que 
